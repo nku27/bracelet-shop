@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "Noto Sans TC", sans-serif;
+  background: #fff8fb;
+  color: #4b4146;
+}
+
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7%;
+  background: white;
+  border-bottom: 1px solid #f1e4e9;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4b4146;
+  font-size: 14px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.small-title {
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 42px;
+  margin: 20px 0;
+}
+
+.hero p {
+  line-height: 1.8;
+}
+
+.main-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 30px;
+  border-radius: 30px;
+  background: #f3b8c9;
+  color: white;
+  text-decoration: none;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 20px 100px;
+}
+
+.feature {
+  width: 250px;
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.icon {
+  font-size: 35px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: white;
+}
