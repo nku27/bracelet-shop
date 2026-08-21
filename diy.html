@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>DIY 手鏈｜手鏈商店</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">手鏈商店</div>
+
+  <nav>
+    <a href="index.html">首頁</a>
+    <a href="diy.html">DIY 手鏈</a>
+    <a href="products.html">商品</a>
+    <a href="order.html">訂單查詢</a>
+    <a href="login.html">管理員</a>
+  </nav>
+</header>
+
+
+<main>
+
+  <section class="hero">
+    <p class="small-title">DIY BRACELET</p>
+
+    <h1>設計你的專屬手鏈</h1>
+
+    <p>
+      選擇喜歡的串珠，放進工作台，
+      打造屬於自己的手鏈。
+    </p>
+  </section>
+
+
+  <!-- 手鏈工作台 -->
+  <section>
+
+    <h2 style="text-align:center;">
+      我的手鏈
+    </h2>
+
+    <div id="workbench"
+      style="
+        min-height:180px;
+        margin:30px;
+        padding:30px;
+        background:white;
+        border-radius:20px;
+        text-align:center;
+      ">
+
+      <p>目前還沒有選擇串珠</p>
+
+    </div>
+
+    <h2 style="text-align:center;">
+      目前價格：NT$ <span id="total">0</span>
+    </h2>
+
+  </section>
+
+
+  <!-- 串珠區 -->
+  <section style="padding:50px 20px;">
+
+    <h2 style="text-align:center;">
+      選擇串珠
+    </h2>
+
+    <div
+      id="beads"
+      style="
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:20px;
+      ">
+    </div>
+
+  </section>
+
+</main>
+
+
+<footer>
+  © 2026 手鏈商店
+</footer>
+
+
+<script type="module" src="diy.js"></script>
+
+</body>
+</html>
